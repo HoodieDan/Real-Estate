@@ -48,7 +48,10 @@ export default {
         }
     },
     mounted () {
-        if (window.innerWidth > 1366) {
+        if (window.innerWidth > 1115) {
+            this.number = 2.6
+        }
+        if (window.innerWidth >= 1366) {
             this.number = 3.2
         }
     },

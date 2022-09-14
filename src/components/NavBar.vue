@@ -105,7 +105,7 @@ button.navbar-toggle {
   z-index: 1000;
 }
 span.top-bar {
-  margin-top: -10px;
+  margin-top: -8px;
   transform: rotate(0deg);
   border-radius: 32px;
 }
@@ -116,7 +116,7 @@ span.middle-bar {
   border-radius: 32px;
 }
 span.bottom-bar {
-  margin-top: 10px;
+  margin-top: 8px;
   width: 70%;
   transform: rotate(0deg);
   border-radius: 32px;
