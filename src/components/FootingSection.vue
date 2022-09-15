@@ -64,6 +64,9 @@ a {
 a:hover {
     color: #D9D849;
 }
+.fa-solid {
+    margin-right: 0.5rem;
+}
 @media (max-width: 992px) {
     .col-lg-6 {
         margin-bottom: 2rem;
