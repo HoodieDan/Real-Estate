@@ -1,5 +1,5 @@
 <template>
-  <div id="Home" class="container hero">
+  <div id="Home" class="container">
     <div class="hero">
         <div class="col-lg-7 col-md-9">
             <h1 class="heading">Turn A House To Your Home</h1>
@@ -53,10 +53,13 @@ button.btn:hover {
 }
 @media (max-width: 820px) {
   .hero {
-    height: 80vh !important;
+    height: 60vh !important;
   }
 }
 @media (max-width: 575px) {
+  .hero {
+    height: 80vh !important;
+  }
   .col-lg-7 {
     padding: 1rem;
   }

@@ -74,7 +74,15 @@ div.normal {
         bottom: 15%;
     }
 }
+@media (max-width: 820px) {
+  #Tour {
+    height: 60vh !important;
+  }
+}
 @media (max-width: 575px) {
+    #Tour {
+        height: 100vh !important;
+    }
     .col-lg-4 {
         text-align: left;
     }
