@@ -17,15 +17,17 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-6 mb-5">
                 <img src="../assets/images/interswitch.png" alt="interswitch" class="img-fluid">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-5">
+            <div class="col-lg-1 col-0"></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6 mb-5">
                 <img src="../assets/images/flutterwave.png" alt="flutterwave" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-5">
                 <img src="../assets/images/e-health.png" alt="e-health" class="img-fluid">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 mb-5">
+            <div class="col-lg-3 col-md-4 col-sm-4 mb-5">
                 <img src="../assets/images/andela.png" alt="andela" class="img-fluid">
             </div>
+            <div class="col-lg-1 col-0"></div>
         </div>
     </div>
   </section>
