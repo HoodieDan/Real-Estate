@@ -5,7 +5,7 @@
             <div class="col-lg-7 col-md-7">
                 <img class="img-fluid" src="../assets/images/contact-section-img.png" alt="Contact us">
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-5">
                 <h4 class="head mb-5">The Leading Real Estate
                     Rental Marketplace</h4>
                 <p class="mb-4">From vast lands to a conducive environment, we provide well structured and equipped apartments for your utmost comfort and security.</p>
@@ -58,6 +58,11 @@ button.btn {
 }
 button.btn:hover {
   background-color: #a7a723;
+}
+@media (max-width: 820px) {
+  #Contact {
+    height: auto !important;
+  }
 }
 @media (max-width: 768px) {
     #Contact {
