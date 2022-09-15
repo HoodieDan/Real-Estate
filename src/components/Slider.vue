@@ -1,7 +1,7 @@
 <template>
     <swiper
         class="desktop"
-        :slides-per-view="number"
+        :slides-per-view="3.2"
         :space-between="10"
         navigation
     >
@@ -47,14 +47,14 @@ export default {
             number: 2.2
         }
     },
-    mounted () {
-        if (window.innerWidth > 1115) {
-            this.number = 2.6
-        }
-        if (window.innerWidth >= 1366) {
-            this.number = 3.2
-        }
-    },
+    // mounted () {
+    //     if (window.innerWidth > 1115) {
+    //         this.number = 3.2
+    //     }
+    //     if (window.innerWidth >= 1366) {
+    //         this.number = 3.2
+    //     }
+    // },
     components: {
         Swiper,
         SwiperSlide,

@@ -79,6 +79,11 @@ div.normal {
     height: 60vh !important;
   }
 }
+@media (max-height: 1024px) {
+  #Tour {
+    height: 100vh !important;
+  }
+}
 @media (max-width: 575px) {
     #Tour {
         height: 100vh !important;
