@@ -88,4 +88,9 @@ div.normal {
         bottom: 10rem;
     }
 }
+@media (max-width: 279px) {
+    div.normal {
+        bottom: 6rem;
+    }
+}
 </style>
