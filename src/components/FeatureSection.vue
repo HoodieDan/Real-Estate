@@ -51,6 +51,7 @@ export default {
 }
 .feature p {
     font-size: 0.9rem;
+    font-weight: lighter;
 }
 button.btn {
   background-color: #D9D849;

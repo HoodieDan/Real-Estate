@@ -142,7 +142,7 @@ a.navbar-link:hover {
   height: 3px;
   width: 100%;
   background: #494949;
-  border-radius: 1px;
+  /* border-radius: 1px; */
   opacity: 1;
   left: 0;
   transform: rotate(0deg);

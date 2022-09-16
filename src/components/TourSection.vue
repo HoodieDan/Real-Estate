@@ -30,14 +30,14 @@ export default {
 
 <style scoped>
 #Tour {
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
 }
 .bg-grey {
     padding-top: 3rem;
     background-color: #494949;
     color: #FFF;
-    height: 50%;
+    height: 20rem;
 }
 .head {
     font-weight: 600;
@@ -67,54 +67,25 @@ button.btn:hover {
 }
 div.normal {
     position: relative;
-    bottom: 20%;
+    bottom: 8rem;
 }
-@media (max-width: 992px) {
-    div.normal {
-        bottom: 15%;
+@media (max-height: 768px) {
+    .bg-grey {
+        height: 17rem;
     }
-}
-@media (max-width: 820px) {
-  #Tour {
-    height: 60vh !important;
-  }
-}
-@media (max-height: 1024px) {
-  #Tour {
-    height: 100vh !important;
-  }
+    div.normal {
+        bottom: 4rem;
+    }
 }
 @media (max-width: 575px) {
-    #Tour {
-        height: 100vh !important;
-    }
     .col-lg-4 {
         text-align: left;
     }
-}
-@media (max-width: 440px) {
     .bg-grey {
-        padding: 3rem 1rem;
-        height: 50vh;
+        height: 30rem;
     }
     div.normal {
-        height: auto;
-        bottom: 10%;
-    }
-    /* #Tour {
-        height: 80vh;
-    } */
-}
-@media (max-width: 350px) {
-    #Tour {
-        height: auto;
-    }
-    .bg-grey {
-        height: 60vh;
-    }
-    div.normal {
-        height: auto;
-        bottom: 5%;
+        bottom: 10rem;
     }
 }
 </style>

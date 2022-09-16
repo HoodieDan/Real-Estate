@@ -51,7 +51,7 @@ button.btn {
 button.btn:hover {
   background-color: #a7a723;
 }
-@media (max-width: 820px) {
+@media (max-width: 992px) {
   .hero {
     height: 60vh !important;
   }
@@ -64,17 +64,25 @@ button.btn:hover {
     padding: 1rem;
   }
   h1.heading {
-    font-weight: 700;
     font-size: 3.5rem;
-    margin-top: 3rem;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 375px) {
   h1.heading {
     font-size: 2.5rem;
   }
   .col-lg-7 {
     padding: 0 0.5rem;
   }
+}
+@media (max-height: 500px) {
+  h1.heading {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .heading-baby {
+    width: 90%;
+    font-size: 0.8rem;
+}
 }
 </style>
